@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tools:LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FilterItems"
+    android:orientation="vertical">
+
+<CheckBox
+    android:id="@+id/usa"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="United States" />
+
+<CheckBox
+    android:id="@+id/india"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="India"
+    />
+
+<CheckBox
+    android:id="@+id/france"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="France" />
+
+
+
+</tools:LinearLayout>
